@@ -268,3 +268,11 @@ input[type="range"] {
     margin-top: 20px;
   }
 }
+@media only screen and (max-height: 450px) {
+  .container {
+    justify-content: unset;
+  }
+  .heading-theme-wrapper {
+    margin-top: 20px;
+  }
+}
