@@ -1,6 +1,5 @@
 const setTheme = (theme) => (document.documentElement.className = theme);
 const input = document.querySelector(".range");
-setTheme("dark");
 
 input.addEventListener("change", function () {
   if (input.value === "1") {
@@ -10,5 +9,4 @@ input.addEventListener("change", function () {
   } else if (input.value === "3") {
     setTheme("purple");
   }
-  console.log(input.value);
 });
