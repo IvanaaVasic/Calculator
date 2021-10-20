@@ -97,7 +97,8 @@ body {
   color: var(--white);
 }
 .output {
-  height: 128px;
+  min-height: 128px;
+  height: auto;
   background-color: var(--result-display);
   margin-bottom: 24px;
   border-radius: 10px;
@@ -106,6 +107,11 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding-right: 38px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .output div {
   font-family: Spartan-bold;
